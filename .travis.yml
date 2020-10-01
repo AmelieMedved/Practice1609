@@ -1,13 +1,13 @@
 language: cpp
 compiler:
-    -gcc
-    -clang
+    - gcc
+    - clang
 before_script:
-    -mkdir ../build
-    -cd ../build
+    - mkdir ../build
+    - cd ../build
 script:
-    -cmake ../Practice1609/
-    -make -j
+    - cmake ../Practice1609/
+    - make -j
     - ./vector/vector
 notifications:
-    emal: false
+    email: false
