@@ -8,6 +8,7 @@ before_script:
 script:
     - cmake ../Practice1609/
     - make -j
+    - ls
     - ./vector/vector
 notifications:
     email: false
